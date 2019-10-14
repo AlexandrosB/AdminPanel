@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserListSingleUser /> should match the snapshot 1`] = `
+<li
+  className="singleUser"
+  onClick={[Function]}
+>
+  <span
+    className="singleUserPhoto"
+  >
+    <img
+      alt="User"
+      src="random.url..com"
+    />
+  </span>
+  <span
+    className="singleUserExtra"
+  >
+    <div
+      className="singleUserName"
+    >
+      Me
+    </div>
+    <div
+      className="singleUserEmail"
+    >
+      mymonkey@email.com
+    </div>
+  </span>
+</li>
+`;

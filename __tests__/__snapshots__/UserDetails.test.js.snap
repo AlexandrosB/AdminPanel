@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserDetails /> should match the snapshot 1`] = `
+<section
+  className="userDetailsContainer"
+>
+  <div
+    className="formGroup"
+  >
+    <div
+      className="formElement"
+    >
+      <span
+        className="label"
+      >
+        Name
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="Enter name"
+        type="text"
+        value="Bates Washington"
+      />
+    </div>
+    <div
+      className="formElement"
+    >
+      <span
+        className="label"
+      >
+        Email address
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="Enter email address"
+        type="text"
+        value="bates.washington@zolarex.io"
+      />
+    </div>
+    <div
+      className="formElement"
+    >
+      <span
+        className="label"
+      >
+        Phone
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="Enter phone"
+        type="text"
+        value="+1 (915) 447-2207"
+      />
+    </div>
+    <div
+      className="formElement"
+    >
+      <span
+        className="label"
+      >
+        Address
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="Enter address"
+        type="text"
+        value="958 Brevoort Place, Ona, Maine, 2433"
+      />
+    </div>
+    <div
+      className="formElement"
+    >
+      <span
+        className="label"
+      >
+        Company
+      </span>
+      <input
+        onChange={[Function]}
+        placeholder="Enter company"
+        type="text"
+        value="ZOLAREX"
+      />
+    </div>
+    <section
+      className="buttons"
+    >
+      <button
+        className="cancel"
+        disabled={true}
+        onClick={[Function]}
+        type="submit"
+      >
+        <p>
+          Cancel
+        </p>
+      </button>
+      <button
+        className="update"
+        disabled={true}
+        onClick={[Function]}
+        type="submit"
+      >
+        <p>
+          Save
+        </p>
+      </button>
+    </section>
+  </div>
+</section>
+`;

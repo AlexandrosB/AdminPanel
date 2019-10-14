@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserList /> should match the snapshot 1`] = `
+<ul
+  className="userListContainer"
+>
+  <Memo(UserListSingleUser)
+    key="5c093af1c6ee9117a581c7d6"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail="bates.washington@zolarex.io"
+    userId="5c093af1c6ee9117a581c7d6"
+    userName="Bates Washington"
+    userPhoto="https://randomuser.me/api/portraits/men/40.jpg"
+  />
+  <Memo(UserListSingleUser)
+    key="5c093af1aeca1bb00607fb2a"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail="mollie.oneill@viagrand.biz"
+    userId="5c093af1aeca1bb00607fb2a"
+    userName="Mollie Oneill"
+    userPhoto="https://randomuser.me/api/portraits/men/1.jpg"
+  />
+  <Memo(UserListSingleUser)
+    key="5c093af11dc4289c2941bd83"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail=""
+    userId="5c093af11dc4289c2941bd83"
+    userName="Lana Sharpe"
+    userPhoto="https://randomuser.me/api/portraits/men/2.jpg"
+  />
+  <Memo(UserListSingleUser)
+    key="5c093af172c42a579bdb685f"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail="massey.ewing@stockpost.ca"
+    userId="5c093af172c42a579bdb685f"
+    userName="Massey Ewing"
+    userPhoto="https://randomuser.me/api/portraits/men/3.jpg"
+  />
+  <Memo(UserListSingleUser)
+    key="5c093af1264dbf1a467091cf"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail="patrica.melton@digial.name"
+    userId="5c093af1264dbf1a467091cf"
+    userName="Patrica Melton"
+    userPhoto="https://randomuser.me/api/portraits/men/4.jpg"
+  />
+  <Memo(UserListSingleUser)
+    key="5c093af1e39cab35f1c9726e"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail=""
+    userId="5c093af1e39cab35f1c9726e"
+    userName="Viola Serrano"
+    userPhoto="https://randomuser.me/api/portraits/men/5.jpg"
+  />
+  <Memo(UserListSingleUser)
+    key="5c093af1dd7402c939bd490c"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail="tammy.dixon@xth.net"
+    userId="5c093af1dd7402c939bd490c"
+    userName="Tammy Dixon"
+    userPhoto="https://randomuser.me/api/portraits/men/6.jpg"
+  />
+  <Memo(UserListSingleUser)
+    key="5c093af15b557da4238bcb0c"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail="christensen.brown@skyplex.us"
+    userId="5c093af15b557da4238bcb0c"
+    userName="Christensen Brown"
+    userPhoto="https://randomuser.me/api/portraits/men/7.jpg"
+  />
+  <Memo(UserListSingleUser)
+    key="5c091af1e39cab35f9c9726n"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail="wberends0@unblog.fr"
+    userId="5c091af1e39cab35f9c9726n"
+    userName="Wilmer Berends"
+    userPhoto="https://randomuser.me/api/portraits/men/8.jpg"
+  />
+  <Memo(UserListSingleUser)
+    key="5c693af1dd7402c939bd4806"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail="yculver1@netvibes.com"
+    userId="5c693af1dd7402c939bd4806"
+    userName="Yolane Culver"
+    userPhoto="https://randomuser.me/api/portraits/men/9.jpg"
+  />
+  <Memo(UserListSingleUser)
+    key="50093af15b557da4248bcb02"
+    selectUser={[MockFunction]}
+    selectedUserId="5c093af1c6ee9117a581c7d6"
+    userEmail="cmarthen2@alibaba.com"
+    userId="50093af15b557da4248bcb02"
+    userName="Clarance Marthen"
+    userPhoto="https://randomuser.me/api/portraits/men/10.jpg"
+  />
+</ul>
+`;

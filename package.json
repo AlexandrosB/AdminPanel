@@ -4,15 +4,42 @@
   "private": true,
   "dependencies": {
     "node-sass": "^4.12.0",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-scripts": "^3.2.0",
+    "react-hot-loader": "4.12.11"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test": "jest --watchAll --coverage"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "moduleDirectories": [
+      "src",
+      "node_modules"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "<rootDir>/__mocks__/styleMock.js",
+      "\\.(jpg|gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+    },
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest",
+      ".+\\.(css|styl|less|sass|scss)$": "<rootDir>/node_modules/jest-css-modules-transform"
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTests.js",
+      "jest-extended"
+    ],
+    "moduleFileExtensions": [
+      "css",
+      "scss",
+      "js",
+      "json",
+      "jsx"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,11 +56,54 @@
       "last 1 safari version"
     ]
   },
+  "resolutions": {
+    "babel-core": "7.0.0-bridge.0"
+  },
   "devDependencies": {
-    "eslint": "^6.5.1",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0"
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "7.4.4",
+    "@babel/plugin-proposal-export-namespace-from": "7.5.2",
+    "@babel/plugin-proposal-function-sent": "7.5.0",
+    "@babel/plugin-proposal-json-strings": "7.2.0",
+    "@babel/plugin-proposal-numeric-separator": "7.2.0",
+    "@babel/plugin-proposal-throw-expressions": "7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "7.2.0",
+    "@babel/plugin-syntax-import-meta": "7.2.0",
+    "@babel/plugin-transform-react-constant-elements": "7.5.0",
+    "@babel/plugin-transform-react-inline-elements": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "@babel/register": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "24.9.0",
+    "babel-loader": "8.0.6",
+    "babel-plugin-lodash": "3.3.4",
+    "babel-plugin-transform-react-pure-class-to-function": "1.0.1",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.24",
+    "babel-preset-react-optimize": "1.0.1",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "enzyme-to-json": "^3.4.2",
+    "eslint": "6.2.1",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.1.0",
+    "eslint-loader": "2.2.1",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jest": "22.15.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-watch": "6.0.0",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "24.9.0",
+    "jest-css-modules-transform": "2.5.0",
+    "jest-enzyme": "7.1.0",
+    "jest-extended": "^0.11.2",
+    "jest-fetch-mock": "2.1.2",
+    "jsdom": "15.1.1"
   }
 }

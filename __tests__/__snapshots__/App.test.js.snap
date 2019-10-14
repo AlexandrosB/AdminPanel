@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match the snapshot 1`] = `
+<section
+  className="appContainer"
+>
+  <UserList
+    selectUser={[Function]}
+    selectedUserId=""
+    users={
+      Array [
+        Object {
+          "address": "958 Brevoort Place, Ona, Maine, 2433",
+          "company": "ZOLAREX",
+          "email": "bates.washington@zolarex.io",
+          "id": "5c093af1c6ee9117a581c7d6",
+          "name": "Bates Washington",
+          "phone": "+1 (915) 447-2207",
+          "photo": "https://randomuser.me/api/portraits/men/40.jpg",
+        },
+        Object {
+          "address": "120 Cedar Street, Mansfield, Kentucky, 8890",
+          "company": "VIAGRAND",
+          "email": "mollie.oneill@viagrand.biz",
+          "id": "5c093af1aeca1bb00607fb2a",
+          "name": "Mollie Oneill",
+          "phone": "+1 (852) 535-3880",
+          "photo": "https://randomuser.me/api/portraits/men/1.jpg",
+        },
+        Object {
+          "address": "673 Revere Place, Canoochee, New Mexico, 4980",
+          "company": "SPEEDBOLT",
+          "email": "",
+          "id": "5c093af11dc4289c2941bd83",
+          "name": "Lana Sharpe",
+          "phone": "+1 (876) 475-3370",
+          "photo": "https://randomuser.me/api/portraits/men/2.jpg",
+        },
+        Object {
+          "address": "716 Hazel Court, Hanover, Louisiana, 9603",
+          "company": "STOCKPOST",
+          "email": "massey.ewing@stockpost.ca",
+          "id": "5c093af172c42a579bdb685f",
+          "name": "Massey Ewing",
+          "phone": "+1 (948) 482-2392",
+          "photo": "https://randomuser.me/api/portraits/men/3.jpg",
+        },
+        Object {
+          "address": "371 Cortelyou Road, Farmers, Iowa, 1733",
+          "company": "DIGIAL",
+          "email": "patrica.melton@digial.name",
+          "id": "5c093af1264dbf1a467091cf",
+          "name": "Patrica Melton",
+          "phone": "",
+          "photo": "https://randomuser.me/api/portraits/men/4.jpg",
+        },
+        Object {
+          "address": "787 Bleecker Street, Nipinnawasee, New York, 6872",
+          "company": "ENTALITY",
+          "email": "",
+          "id": "5c093af1e39cab35f1c9726e",
+          "name": "Viola Serrano",
+          "phone": "+1 (909) 489-2270",
+          "photo": "https://randomuser.me/api/portraits/men/5.jpg",
+        },
+        Object {
+          "address": "293 Linwood Street, Roulette, Nevada, 7805",
+          "company": "XTH",
+          "email": "tammy.dixon@xth.net",
+          "id": "5c093af1dd7402c939bd490c",
+          "name": "Tammy Dixon",
+          "phone": "+1 (810) 472-2762",
+          "photo": "https://randomuser.me/api/portraits/men/6.jpg",
+        },
+        Object {
+          "address": "600 Calder Place, Bourg, Hawaii, 9397",
+          "company": "SKYPLEX",
+          "email": "christensen.brown@skyplex.us",
+          "id": "5c093af15b557da4238bcb0c",
+          "name": "Christensen Brown",
+          "phone": "+1 (892) 462-2141",
+          "photo": "https://randomuser.me/api/portraits/men/7.jpg",
+        },
+        Object {
+          "address": "401 Spaight Way",
+          "company": "Dabvine",
+          "email": "wberends0@unblog.fr",
+          "id": "5c091af1e39cab35f9c9726n",
+          "name": "Wilmer Berends",
+          "phone": "111-757-1393",
+          "photo": "https://randomuser.me/api/portraits/men/8.jpg",
+        },
+        Object {
+          "address": "1 Colorado Junction",
+          "company": "Fivespan",
+          "email": "yculver1@netvibes.com",
+          "id": "5c693af1dd7402c939bd4806",
+          "name": "Yolane Culver",
+          "phone": "471-485-5905",
+          "photo": "https://randomuser.me/api/portraits/men/9.jpg",
+        },
+        Object {
+          "address": "6977 Sugar Trail",
+          "company": "Shuffledrive",
+          "email": "cmarthen2@alibaba.com",
+          "id": "50093af15b557da4248bcb02",
+          "name": "Clarance Marthen",
+          "phone": "638-994-3228",
+          "photo": "https://randomuser.me/api/portraits/men/10.jpg",
+        },
+      ]
+    }
+  />
+  <div
+    className="noUser"
+  >
+    Select a user!
+  </div>
+</section>
+`;
