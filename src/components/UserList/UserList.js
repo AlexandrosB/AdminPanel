@@ -5,12 +5,6 @@ import UserListSingleUser from './Static/UserListSingleUser';
 require('./Static/userList.scss');
 
 class UserList extends Component {
-    static propTypes = {
-        users: PropTypes.array.isRequired,
-        selectUser: PropTypes.func.isRequired,
-        selectedUserId: PropTypes.string.isRequired
-    };
-
     render() {
         const { users, selectUser, selectedUserId } = this.props;
         return (
@@ -32,5 +26,11 @@ class UserList extends Component {
         );
     }
 }
+
+UserList.propTypes = {
+    users: PropTypes.array.isRequired,
+    selectUser: PropTypes.func.isRequired,
+    selectedUserId: PropTypes.string.isRequired
+};
 
 export default UserList;

@@ -4,16 +4,6 @@ import PropTypes from 'prop-types';
 require('./Static/userDetails.scss');
 
 class UserDetails extends Component {
-    static propTypes = {
-        id: PropTypes.string.isRequired,
-        name: PropTypes.string.isRequired,
-        email: PropTypes.string.isRequired,
-        phone: PropTypes.string.isRequired,
-        address: PropTypes.string.isRequired,
-        company: PropTypes.string.isRequired,
-        updateUserDetails: PropTypes.func.isRequired
-    };
-
     constructor(props) {
         super(props);
         const {
@@ -100,8 +90,7 @@ class UserDetails extends Component {
                 name: oldName, email: oldEmail, phone: oldPhone, address: oldAddress, company: oldCompany
             } = this.props,
             enableButton = (name !== oldName || email !== oldEmail
-                || phone !== oldPhone || address !== oldAddress
-                || company !== oldCompany);
+                || phone !== oldPhone || address !== oldAddress || company !== oldCompany);
         return (
             <section className='userDetailsContainer'>
                 <div className='formGroup'>
@@ -154,6 +143,7 @@ class UserDetails extends Component {
                         <button
                             className='cancel'
                             onClick={ this.cancelChanges }
+                            type='submit'
                             disabled={ !enableButton }
                         >
                             <p>Cancel</p>
@@ -161,6 +151,7 @@ class UserDetails extends Component {
                         <button
                             className='update'
                             onClick={ this.updateUserDetails }
+                            type='submit'
                             disabled={ !enableButton }
                         >
                             <p>Save</p>
@@ -171,5 +162,15 @@ class UserDetails extends Component {
         );
     }
 }
+
+UserDetails.propTypes = {
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    email: PropTypes.string.isRequired,
+    phone: PropTypes.string.isRequired,
+    address: PropTypes.string.isRequired,
+    company: PropTypes.string.isRequired,
+    updateUserDetails: PropTypes.func.isRequired
+};
 
 export default UserDetails;

@@ -128,7 +128,7 @@ class App extends Component {
     };
 
     /**
-     * Update user details and handles response
+     * Update user details
      * @param data
      */
     updateUserDetails = (data) => {
