@@ -1,0 +1,59 @@
+.userListContainer {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  .singleUser {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 60px;
+    padding: 10px 20px;
+    cursor: pointer;
+    &:hover {
+      background: #e8e8e8;
+    }
+    &.selected {
+      background: #1b68b3;
+      &:hover {
+        background: #1b68b3;
+      }
+    }
+    .singleUserPhoto {
+      img {
+        width: 60px;
+        border-radius: 30px;
+      }
+    }
+    .singleUserExtra {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .singleUser {
+      .singleUserExtra {
+        display: block;
+        margin-top: 10px;
+        line-height: 20px;
+        font-size: 18px;
+        padding-left: 20px;
+        .singleUserName {
+          color: black;
+          font-size: 16px;
+          font-weight: 600;
+        }
+        .singleUserEmail {
+          color: grey;
+          font-size: 14px;
+        }
+      }
+      &.selected {
+        .singleUserName {
+          color: white;
+        }
+        .singleUserEmail {
+          color: lightgrey;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

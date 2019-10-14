@@ -1,0 +1,64 @@
+.userDetailsContainer {
+  .formGroup {
+    padding: 8px 12px;
+    .formElement {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 12px;
+      position: relative;
+      .label, input {
+        flex: 0 0 90%;
+        text-align: left;
+        padding: 0;
+        font-size: 15px;
+        height: 36px;
+        line-height: 36px;
+        color: grey;
+      }
+      input {
+        padding: 0 10px;
+        border: 1px solid #ececec;
+      }
+    }
+  }
+  .buttons {
+    float: right;
+    margin-right: calc(10% - 20px);
+    button {
+      &.cancel, &.update {
+        display: inline-block;
+        width: 75px;
+        margin-top: 50px;
+        height: 36px;
+        line-height: 0;
+        font-size: 16px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      &.cancel {
+        background: #f7f7f7;
+        &:hover {
+          box-shadow: -1px 1px 1px rgba(247, 247, 247, 0.90);
+        }
+        &:disabled {
+          display: none;
+        }
+      }
+      &.update {
+        background: #1b68b3;
+        color: white;
+        margin-left: 12px;
+        &:hover {
+          box-shadow: -1px 1px 1px rgba(27, 104, 179, 0.90);
+        }
+        &:disabled {
+          opacity: 0.7;
+        }
+      }
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+}
